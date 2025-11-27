@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="GFy-jx-CcJ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" preservesSuperviewLayoutMargins="YES" image="SplashBackground" translatesAutoresizingMaskIntoConstraints="NO" id="EFB-X4-gDI">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <edgeInsets key="layoutMargins" top="0.0" left="0.0" bottom="0.0" right="0.0"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" image="SplashBottomIcons" translatesAutoresizingMaskIntoConstraints="NO" id="wpb-pr-hYI" userLabel="SplashBottomIcon">
+                                <rect key="frame" x="0.0" y="381.5" width="375" height="285.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="wpb-pr-hYI" secondAttribute="height" multiplier="214:163" id="t9m-rX-rdZ"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" preservesSuperviewLayoutMargins="YES" image="SplashIcon" translatesAutoresizingMaskIntoConstraints="NO" id="nHO-d8-7fu">
+                                <rect key="frame" x="90" y="283.5" width="195" height="100"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="fWl-Vr-DVs"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="EFB-X4-gDI" secondAttribute="trailing" id="6Bd-95-wiF"/>
+                            <constraint firstItem="wpb-pr-hYI" firstAttribute="bottom" secondItem="GFy-jx-CcJ" secondAttribute="bottom" id="9bE-zn-TLu"/>
+                            <constraint firstAttribute="bottom" secondItem="EFB-X4-gDI" secondAttribute="bottom" id="E5o-80-oa7"/>
+                            <constraint firstItem="nHO-d8-7fu" firstAttribute="centerY" secondItem="GFy-jx-CcJ" secondAttribute="centerY" id="N6x-TQ-kny"/>
+                            <constraint firstItem="wpb-pr-hYI" firstAttribute="leading" secondItem="fWl-Vr-DVs" secondAttribute="leading" id="TA0-zb-B8E"/>
+                            <constraint firstItem="nHO-d8-7fu" firstAttribute="leading" secondItem="fWl-Vr-DVs" secondAttribute="leading" constant="90" id="Tlh-aw-Qhx"/>
+                            <constraint firstItem="EFB-X4-gDI" firstAttribute="top" secondItem="GFy-jx-CcJ" secondAttribute="top" id="Wja-8n-OPO"/>
+                            <constraint firstItem="fWl-Vr-DVs" firstAttribute="trailing" secondItem="wpb-pr-hYI" secondAttribute="trailing" id="ZhK-AO-gr8"/>
+                            <constraint firstItem="EFB-X4-gDI" firstAttribute="leading" secondItem="fWl-Vr-DVs" secondAttribute="leading" id="evt-bM-4EL"/>
+                            <constraint firstItem="nHO-d8-7fu" firstAttribute="centerX" secondItem="GFy-jx-CcJ" secondAttribute="centerX" id="i9z-fS-zQx"/>
+                            <constraint firstItem="fWl-Vr-DVs" firstAttribute="trailing" secondItem="nHO-d8-7fu" secondAttribute="trailing" constant="90" id="yiF-ZL-yEc"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="51.86915887850467" y="374.51403887688986"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="SplashBackground" width="390" height="844"/>
+        <image name="SplashBottomIcons" width="390" height="326"/>
+        <image name="SplashIcon" width="250" height="100"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

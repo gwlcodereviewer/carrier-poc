@@ -1,0 +1,17 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "src/theme/assets/fonts/FlamaTrial-Basic.otf",
+      "sha1": "27e61afe127365b52a155f5a55283efc17759768"
+    },
+    {
+      "path": "src/theme/assets/fonts/FlamaTrial-Book.otf",
+      "sha1": "8946bedc737bdfc432d29627a593d723ceed0772"
+    },
+    {
+      "path": "src/theme/assets/fonts/FlamaTrial-Medium.otf",
+      "sha1": "3b4cc8eed38afa3facee628e081d19544938800f"
+    }
+  ]
+}
