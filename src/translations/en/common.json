@@ -1,0 +1,14 @@
+{
+  "appName": {
+    "full": "React Native Carrier",
+    "initials": "RNB"
+  },
+  "toastMessage": {
+    "itemAdded": "The item has been added to your job",
+    "itemUpdated": "The item has been updated in your job",
+    "itemRemoved": "The item has been removed from your job",
+    "lineOfCreditSuccess": "Request has been submitted for approval",
+    "lineOfCreditError": "There was an error submitting your request",
+    "checkoutError": "There was an error processing your request"
+  }
+}
